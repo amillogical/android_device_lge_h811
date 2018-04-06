@@ -14,17 +14,17 @@
 # limitations under the License.
 #
 
-# inherit from common g4
--include device/lge/g4-common/BoardConfigCommon.mk
+# inherit from common v10
+-include device/lge/v10-common/BoardConfigCommon.mk
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4492099584
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
 
-TARGET_OTA_ASSERT_DEVICE := g4,p1,h811
+TARGET_OTA_ASSERT_DEVICE := pplus,v10,h901
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_h811_defconfig
+TARGET_KERNEL_CONFIG := lineageos_h901_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/h811/BoardConfigVendor.mk
+-include vendor/lge/h901/BoardConfigVendor.mk
