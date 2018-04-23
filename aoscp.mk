@@ -1,4 +1,4 @@
-$(call inherit-product, device/lge/h811/full_h811.mk)
+$(call inherit-product, device/lge/h901/full_h901.mk)
 
 # Inherit some common AOSCP stuff.
 $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
