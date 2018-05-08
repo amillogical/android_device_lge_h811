@@ -24,7 +24,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
 TARGET_OTA_ASSERT_DEVICE := pplus,v10,h901
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_h901_defconfig
+TARGET_KERNEL_CONFIG := aoscp_h901_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h901/BoardConfigVendor.mk
